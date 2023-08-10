@@ -6,35 +6,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="../CSS/confirmacaoAgendamento.css">
     <link rel="stylesheet" href="../CSS/geral.css">
-    <title>Tela de login</title>
+    <title>Confirmação do agendamento</title>
+
 </head>
 <body>
+    
     <header>
         <figure>
             <img src="../assets/logo3.png">
         </figure>
 
         <nav>
-            <a href="../HTML/login.html" class="user-icon">
-                <img src="../assets/homem-usuario.png">
+            <a href="opçõesADM.html">Início</a>
+            <a href="criarConta.html">Usuário</a>
+            <a href="estoque.html">Estoque</a>
+            <a href="index.html">Agendamento</a>
+            <a href="gráfico.html">Relatório</a>
+            <a href="login.html" class="user-icon">
+                <img src="/perfilADM/assets/homem-usuario.png">
             </a>
         </nav>
     </header>
 
-    <h1>Login no sistema</h1>
     <main>
-        <label for="login">Login: *</label>
-        <input type="text" name="login" id="login" placeholder=" ex: Maria">
-        <label for="senha">Senha: *</label>
-        <input type="text" name="senha"  id="senha" placeholder=" ex: Maria.20">
-
-        <a class="acessar" href="../HTML/meusAgendamentos.html"><span>ACESSAR</span></a>
-        <a class="criarConta" href="../HTML/criarConta.html"><span>Criar conta</span></a>
+        <div class="mensagem">
+            <h2>Conta criada com sucesso !</h2>
+            <figure>
+                <img src="../assets/confirmado.png" alt="">
+            </figure>
+        </div>
+        <a class="verificarAge" href="../HTML/opçõesADM.html"><span>Voltar a tela inicial</span></a>
     </main>
+
     <footer>
         <p class="rodape">Fique tranquilo, seus dados estão protegidos de acordo com nossa Política de Privacidade</p>
     </footer>
+    
 </body>
 </html>

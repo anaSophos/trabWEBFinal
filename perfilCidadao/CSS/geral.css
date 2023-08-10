@@ -51,6 +51,35 @@
         -webkit-filter: grayscale(1) invert(1);
         filter: grayscale(1) invert(1);
     }
+
+    .search-bar{
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #E8F1F3;
+        border-radius: 10px;
+        font-size: .8em;
+        margin: auto;
+    }
+    .search-bar input{
+        background-color: transparent;
+        width: 1150px ;
+        outline: 0;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    
+    .lupa, .user-icon{
+        width: 30px;
+        margin-right: 20px;
+    }
+    
+    .lupa img,  .user-icon img{
+        width: 100%;
+        max-width: 30px;
+    }
     /*rodapé*/
     footer{
         margin-top: 144px;
@@ -113,6 +142,36 @@
         -webkit-filter: grayscale(1) invert(1);
         filter: grayscale(1) invert(1);
     }
+
+    .search-bar{
+    
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #E8F1F3;
+        border-radius: 10px;
+        font-size: .8em;
+        margin: auto;
+    }
+    .search-bar input{
+        background-color: transparent;
+        width: 1150px;
+        outline: 0;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    
+    .lupa, .user-icon{
+        width: 30px;
+        margin-right: 20px;
+    }
+    
+    .lupa img{
+        max-width: 25px;
+    }
+
     footer{
         margin-top: 144px;
         background-color: #EFF9FB;

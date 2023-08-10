@@ -1,0 +1,84 @@
+h1{
+    margin-top: 150px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #13293D;
+}
+
+.search-bar{
+    width: 95%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+tbody{
+    border: 1px solid #9D9CE4;
+}
+
+.table-container td a {
+    margin-left: auto;
+    color: white;
+    background-color: #1C99E0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+/* Estilos para a tabela */
+.table-container {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #F8F8F8;
+    border: 1px solid #9D9CE4;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    flex-direction: row;
+}
+
+.table-container th,
+.table-container td {
+    padding: 10px;
+    text-align: center;
+    border: none; 
+}
+
+.vacinaAgendar, .vacinaTotal, .vacinaName{
+    font-size: 16px;
+    color: #13293D;
+    font-weight: bold;
+}
+
+.number-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+  font-size: 1.5rem;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+  color: #13293D;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.number {
+  font-size: 1.2rem;
+  margin: 0 20px;
+}
+
+button:hover {
+  background-color: #1C99E0;
+}
