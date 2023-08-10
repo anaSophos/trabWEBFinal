@@ -1,0 +1,147 @@
+@media (min-width:769px){
+/*conteúdo*/
+h1{
+    padding: 168px 0 49px;
+    width: 100%;
+    color: #13293D;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E8F1F3;
+    border: 1px solid #9D9CE4;
+    border-radius: 15px;
+    width: 896px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+main .acessar{
+    text-decoration: none;
+    text-align: center;
+    font-size: .9em;
+    width: 30%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-weight: bolder;
+    background-color: #1C99E0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;    
+}
+main .criarConta{
+    text-decoration: underline;
+    text-align: center;
+    font-size: .9em;
+    width: 30%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #1C99E0;
+    font-weight: bolder;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+label{
+    font-weight: 2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+input{
+    background-color: #FCFEFF;
+    width: 510px;
+    height: 54px;
+    border-radius: 12px;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+}
+@media (max-width:799px){
+    h1{
+        padding: 168px 0 49px;
+        width: 100%;
+        color: #13293D;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #E8F1F3;
+        border: 1px solid #9D9CE4;
+        border-radius: 15px;
+        width: 90%;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    
+    main .acessar{
+        text-decoration: none;
+        text-align: center;
+        font-size: .9em;
+        width: 57.7%;
+        height: 3em;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        font-weight: bolder;
+        background-color: #1C99E0;
+        border-radius: 10px;
+        margin-top: 20px;    
+    }
+    main .criarConta{
+        text-decoration: underline;
+        text-align: center;
+        font-size: .9em;
+        width: 60%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: #1C99E0;
+        font-weight: bolder;
+        margin-top: 20px;
+    }
+    
+    label{
+        font-weight: 2em;
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    
+    input{
+        background-color: #FCFEFF;
+        width: 20em;
+        height: 3em;
+        border-radius: 12px;
+        margin-top: 5px;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+}

@@ -1,0 +1,197 @@
+@media (min-width:769px){
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    padding: 168px 0 49px;
+    width: 100%;
+    color: #13293D;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.cards-container{
+    padding: 10px;
+    box-sizing: border-box;
+    height: 420px;
+    width: 380px;
+    border: 1px solid #9D9CE4;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    background-color: #E8F1F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.people-row img{
+    mix-blend-mode: multiply;
+    width: 82.12px;
+    height: 70.6px;
+    margin-top: 10px;
+}
+
+main div h2{
+    color: #13293D;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 64px;
+    margin-top: 10px;
+}
+
+main div h3{
+    color: #13293D;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.descricoes{
+    margin-top: 38px;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.description img{
+    mix-blend-mode: multiply;
+    max-width:20px;
+    max-height:32px;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+}
+
+.descricoes a{
+    text-decoration: none;
+    text-align: center;
+    font-size: .9em;
+    width: 86%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    background-color: #1C99E0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+}
+@media (max-width:799px){
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+    }
+    
+    h1{
+        padding: 168px 0 49px;
+        width: 100%;
+        color: #13293D;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    .cards-container{
+        padding: 10px;
+        box-sizing: border-box;
+        height: 430px;
+        width: 330px;
+        border: 1px solid #9D9CE4;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        background-color: #E8F1F3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    
+    .people-row img{
+        mix-blend-mode: multiply;
+        width: 82.12px;
+        height: 70.6px;
+        margin-top: 10px;
+        max-width: 5px 5px;
+    }
+    
+    main div h2{
+        color: #13293D;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 64px;
+        margin-top: 10px;
+    }
+    
+    main div h3{
+        color: #13293D;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .descricoes{
+        margin-top: 38px;
+    }
+    
+    .description{
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: justify;
+    }
+    
+    .description img{
+        mix-blend-mode: multiply;
+        max-width:20px;
+        max-height:32px;
+        width: auto;
+        height: auto;
+        margin-right: 20px;
+    }
+    
+    .descricoes a{
+        text-decoration: none;
+        text-align: center;
+        font-size: .9em;
+        width: 86%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        font-weight: bold;
+        background-color: #1C99E0;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+}

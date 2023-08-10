@@ -1,0 +1,123 @@
+@media (min-width:769px){
+    /*conteúdo*/
+    h1{
+        padding: 168px 0 49px;
+        width: 100%;
+        color: #13293D;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+        background-color: #E8F1F3;
+        border: 1px solid #9D9CE4;
+        border-radius: 15px;
+        width: 896px;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    main .confirm-icon{
+        width: 20px;
+        max-width: 20px;
+    }
+
+    main h2{
+        margin-top: 20px;
+        font-weight: bolder;
+    }
+    main .telainicial{
+        text-decoration: none;
+        text-align: center;
+        font-size: .9em;
+        width: 30%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        font-weight: bolder;
+        background-color: #1C99E0;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 20px;    
+    }
+    select{
+        background-color: #FCFEFF;
+        width: 510px;
+        height: 54px;
+        border-radius: 18px;
+        margin-top: 15px;    
+    }
+}
+@media (max-width:799px){
+    /*conteúdo*/
+    h1{
+        padding: 168px 0 49px;
+        width: 100%;
+        color: #13293D;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+        background-color: #E8F1F3;
+        border: 1px solid #9D9CE4;
+        border-radius: 15px;
+        width: 80%;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    main .confirm-icon{
+        width: 20px;
+        max-width: 20px;
+    }
+
+    main h2{
+        margin-top: 20px;
+        font-weight: bolder;
+        font-size: 18px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    main .telainicial{
+        text-decoration: none;
+        text-align: center;
+        font-size: .9em;
+        width: 60%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        font-weight: bolder;
+        background-color: #1C99E0;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 30px;    
+    }
+    select{
+        background-color: #FCFEFF;
+        width: 510px;
+        height: 54px;
+        border-radius: 18px;
+        margin-top: 15px;    
+    }
+}

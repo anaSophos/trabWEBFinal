@@ -1,0 +1,103 @@
+@media (min-width:769px){
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.search-bar{
+
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E8F1F3;
+    border-radius: 10px;
+    font-size: .8em;
+    margin: auto;
+}
+input{
+    background-color: transparent;
+    width: 1150px;
+    outline: 0;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.lupa, .user-icon{
+    width: 30px;
+    margin-right: 20px;
+}
+
+.lupa img,  .user-icon img{
+    width: 100%;
+    max-width: 30px;
+}
+
+.user-icon img{
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
+
+.Info {
+  margin-top: 50px;
+  font-size: .8em;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+}
+@media (max-width:799px){
+    main{
+        width: 80%;
+        margin: auto;
+        margin-top: 110px;
+    }
+    
+    .search-bar{
+    
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #E8F1F3;
+        border-radius: 10px;
+        font-size: .8em;
+        margin: auto;
+    }
+    input{
+        background-color: transparent;
+        width: 1150px;
+        outline: 0;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    
+    .lupa, .user-icon{
+        width: 30px;
+        margin-right: 20px;
+    }
+    
+    .lupa img{
+        max-width: 25px;
+    }
+    
+    .user-icon img{
+        -webkit-filter: grayscale(1) invert(1);
+        filter: grayscale(1) invert(1);
+    }
+    
+    .Info {
+      margin-top: 50px;
+      font-size: .9em;
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: bolder;
+}
+}

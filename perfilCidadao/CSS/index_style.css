@@ -1,0 +1,213 @@
+@media (min-width:769px){
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.search-bar{
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E8F1F3;
+    border-radius: 10px;
+    font-size: .8em;
+    margin: auto;
+}
+input{
+    background-color: transparent;
+    width: 1150px ;
+    outline: 0;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.lupa, .user-icon{
+    width: 30px;
+    margin-right: 20px;
+}
+
+.lupa img,  .user-icon img{
+    width: 100%;
+    max-width: 30px;
+}
+
+.user-icon img{
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
+
+
+.cards-container{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    justify-content: space-between;
+}
+
+.card{
+    padding: 10px;
+    box-sizing: border-box;
+    height: 280px; /*260px*/
+    width: 23%;
+    border: 2px solid #9D9CE4;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: #E8F1F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card figure{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: .8em;
+    text-align: center;
+}
+
+/* Pessoas na fila */
+.fila{ 
+    font-size: .8em;
+    margin-top: 20px;
+}
+
+.card figure img{
+    max-width: 80px;
+    margin-bottom: 3px;
+}
+
+.card a{
+    text-decoration: none;
+    text-align: center;
+    font-size: .9em;
+    width: 80%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    background-color: #1C99E0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.card-infos p{
+    margin-bottom: 3px;
+    font-size: .7em;
+    font-weight: bold;
+}
+}
+@media (max-width:799px){
+    main{
+        width: 80%;
+        margin: auto;
+        margin-top: 110px;
+    }
+    
+    .search-bar{
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #E8F1F3;
+        border-radius: 10px;
+        font-size: .8em;
+        margin: auto;
+    }
+    input{
+        background-color: transparent;
+        width: 1150px ;
+        outline: 0;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    
+    .lupa{
+        width: 30px;
+        margin-right: 20px;
+    }
+    
+    .lupa img,  .user-icon img{
+        max-width: 25px;
+    }
+    
+    .user-icon img{
+        -webkit-filter: grayscale(1) invert(1);
+        filter: grayscale(1) invert(1);
+    }
+    
+    
+    .cards-container{
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1%;
+        justify-content: space-around;
+    }
+    
+    .card{
+        padding: 10px;
+        box-sizing: border-box;
+        height: 290px; /*260px*/
+        width: 45%;
+        border: 2px solid #9D9CE4;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        background-color: #E8F1F3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card figure{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        font-weight: bolder;
+        font-size: .8em;
+        text-align: center;
+    }
+    
+    /* Pessoas na fila */
+    .fila{ 
+        font-size: .9em;
+        margin-top: 20px;
+    }
+    
+    .card figure img{
+        max-width: 60px;
+        margin-bottom: 3px;
+    }
+    
+    .card a{
+        text-decoration: none;
+        text-align: center;
+        font-size: .9em;
+        width: 70%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        font-weight: bold;
+        background-color: #1C99E0;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    
+    .card-infos p{
+        margin-bottom: 3px;
+        font-size: .7em;
+        font-weight: bold;
+}
+}
