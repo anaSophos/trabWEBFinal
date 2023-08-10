@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background: #016494;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: white;
+}
+
+header figure img {
+    margin-top: 15px;
+    max-width: 150px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    margin-top: 110px;
+}
+
+nav figure img {
+    max-width: 20px;
+}
+
+.lupa img,  .user-icon img{
+    width: 100%;
+    max-width: 30px;
+}
+
+.user-icon img{
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
+
+
+.table-container td a {
+    margin-left: auto;
+    color: white;
+    background-color: #1C99E0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+/* Estilos para a tabela */
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #E8F1F3;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-container th,
+.table-container td {
+    padding: 10px;
+    text-align: center;
+    border: none; 
+}
+.box {
+    background-color: #E8F1F3;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box h4 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+</style>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="/perfilCidadao/assets/logo3.png" alt="Logo">
+        </figure>
+    
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Usuário</a>
+            <a href="#">Estoque</a>
+            <a href="#">Agendamento</a>
+            <a href="#">Relatório</a>
+            <a href="/perfilCidadao/HTML/login.html" class="user-icon">
+                <img src="/perfilCidadao/assets/logo3.png">
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="box">
+            <h4>COVID19</h4>
+        </div>
+        
+        <table class="table-container">
+            <thead>
+                <tr>
+                    <th>Paciente</th>
+                    <th>RG</th>
+                    <th>CPF</th>
+                    <th>Data de Nascimento</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana Paula</td>
+                    <td>1987452</td>
+                    <td>12345678912</td>
+                    <td>21/10/2004</td>
+                    <td>94992266666</td>
+                    <td><a href="/perfilCidadao/HTML/cancelamento.html">Cancelar</a></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
