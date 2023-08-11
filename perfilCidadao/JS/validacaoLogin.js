@@ -7,7 +7,7 @@ function validacaoTotal(){
     }
     else{
         document.getElementById("buttonAcessar").disabled = false;
-        document.getElementById("linkAcessar").href="../HTML/opçõesADM.html";
+        document.getElementById("linkAcessar").href="../HTML/index.html";
     }
 }
 
