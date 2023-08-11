@@ -26,25 +26,28 @@
     <h1>Criar Conta</h1>
     <main>
         <label for="email">Login: *</label>
-        <input type="text" placeholder=" ex: maria.apare@hotmail.com">
+        <input type="email" name="email" id="email" onchange="validacaoEmail()" placeholder=" ex: maria.apare@hotmail.com">
 
         <label for="senha">Senha: *</label>
-        <input type="text" placeholder=" ex: Mar.20">
+        <input type="text" name="senha" id="senha" onchange="validacaoSenha()" placeholder=" ex: Mar.20">
 
         <label for="senha">Confirmar senha: *</label>
-        <input type="text" placeholder=" ex: Mar.20">
+        <input type="text" name="confirmacaoSenha" id="confirmacaoSenha" onchange="validacaoSenha()" placeholder=" ex: Mar.20">
         
 
         <label for="Usuario">Perfil de Usuário: *</label>
         <select name="select">
             <option value="1-Usuário">1 - Usuário</option>
-            <option value="2- Administrador">2- Administrador</option>
         </select>
 
-        <a class="criar_Conta" href="../HTML/login.html"><span>Criar Conta</span></a>
+        <button class="buttonCriarConta" id="buttonCriarConta" type="button" disabled="true">
+            <a class="criar_Conta" id="linkAcessar"><span>Criar Conta</span></a>
+        </button>
     </main>
     <footer>
         <p class="rodape">Fique tranquilo, seus dados estão protegidos de acordo com nossa Política de Privacidade</p>
     </footer>
+
+    <script src="../JS/validacaoCriarConta.js"></script>
 </body>
 </html>
