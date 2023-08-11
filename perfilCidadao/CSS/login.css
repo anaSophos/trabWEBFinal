@@ -9,7 +9,7 @@
         font-weight: bold;
     }
     
-    main{
+    form{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -24,7 +24,7 @@
         align-items: center;
     }
     
-    main .acessar{
+    form .acessar{
         text-decoration: none;
         text-align: center;
         font-size: .9em;
@@ -37,7 +37,7 @@
         font-weight: bolder;
         background-color: #1C99E0; 
     }
-    main .criarConta{
+    form .criarConta{
         text-decoration: underline;
         text-align: center;
         font-size: .9em;
@@ -113,7 +113,7 @@
             font-weight: bold;
         }
     
-        main{
+        form{
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
@@ -128,7 +128,7 @@
             align-items: center;
         }
         
-        main .acessar{
+        form .acessar{
             text-decoration: none;
             text-align: center;
             font-size: .9em;
@@ -143,7 +143,7 @@
             border-radius: 10px;
             margin-top: 20px;    
         }
-        main .criarConta{
+        form .criarConta{
             text-decoration: underline;
             text-align: center;
             font-size: .9em;

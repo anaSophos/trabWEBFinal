@@ -24,19 +24,20 @@
     </header>
 
     <h1>Login no sistema</h1>
-    <main name="f1">
+    <form name="f1">
         <label for="login">Login: *</label>
         <input type="email" name="email" id="email" onchange="validacaoEmail()" placeholder=" ex: Maria">
         <label for="senha">Senha: *</label>
         <input type="text" name="senha"  id="senha" onchange="validacaoTotal()" placeholder=" ex: Maria.20">
-
-        <button class="buttonAcessar" id="buttonAcessar" type="button" disabled="true" href="../HTML/opçõesADM.html">
+        
+        <button class="buttonAcessar" id="buttonAcessar" type="button" disabled="true" onclick="myFunction(event)">
             <a class="acessar" id="linkAcessar"><span>ACESSAR</span></a>
         </button>
         <button class="buttonCriar" href="/perfilCidadao/HTML/criarConta.html">
             <a class="criarConta" href="/perfilCidadao/HTML/criarConta.html"><span>Criar conta</span></a>
         </button>
-    </main>
+    </form>
+
     <footer>
         <p class="rodape">Fique tranquilo, seus dados estão protegidos de acordo com nossa Política de Privacidade</p>
     </footer>

@@ -9,7 +9,7 @@
         font-weight: bolder;
     }
 
-    main{
+    form{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -24,11 +24,11 @@
         align-items: center;
     }
 
-    main h2{
+    form h2{
         margin-top: 20px;
     }
 
-    main .criar_Conta{
+    form .criar_Conta{
         text-decoration: none;
         text-align: center;
         font-size: .9em;
@@ -88,7 +88,7 @@
         font-weight: bolder;
     }
 
-    main{
+    form{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -103,11 +103,11 @@
         align-items: center;
     }
 
-    main h2{
+    form h2{
         margin-top: 20px;
     }
 
-    main .criar_Conta{
+    form .criar_Conta{
         text-decoration: none;
         text-align: center;
         font-size: .9em;

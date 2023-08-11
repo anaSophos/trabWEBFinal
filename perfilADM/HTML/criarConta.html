@@ -29,7 +29,7 @@
     </header>
 
     <h1>Criar Conta</h1>
-    <main>
+    <form>
         <label for="email">Login: *</label>
         <input type="email" name="email" id="email" onchange="validacaoEmail()" placeholder=" ex: maria.apare@hotmail.com">
 
@@ -46,10 +46,10 @@
             <option value="2- Administrador">2- Administrador</option>
         </select>
 
-        <button class="buttonCriarConta" id="buttonCriarConta" type="button" disabled="true">
+        <button class="buttonCriarConta" id="buttonCriarConta" type="button" disabled="true" onclick="myFunction(event)">
             <a class="criar_Conta" id="linkAcessar"><span>Criar Conta</span></a>
         </button>
-    </main>
+    </form>
     <footer>
         <p class="rodape">Fique tranquilo, seus dados estão protegidos de acordo com nossa Política de Privacidade</p>
     </footer>

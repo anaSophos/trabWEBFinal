@@ -7,7 +7,7 @@ function validacaoTotal(){
     }
     else{
         document.getElementById("buttonAcessar").disabled = false;
-        document.getElementById("linkAcessar").href="../HTML/opçõesADM.html";
+        document.getElementById("linkAcessar").href="../HTML/index.html";
     }
 }
 
@@ -28,4 +28,9 @@ function validacaoEmail() {
 
 function validacao(email){
     return /\S+@\S+\.\S+/.test(email);
+}
+
+function myFunction(e){
+    const form = document.querySelector('.form')
+    alert("Login efetuado com sucesso!")
 }

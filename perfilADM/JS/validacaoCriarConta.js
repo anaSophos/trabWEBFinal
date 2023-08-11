@@ -11,7 +11,7 @@ function validacaoSenha(){
     }
     else{
         document.getElementById("buttonCriarConta").disabled = false;
-        document.getElementById("linkAcessar").href="../HTML/confirmacao_criarConta.html";
+        document.getElementById("linkAcessar").href="../HTML/opçõesADM.html";
     }
 }
 
@@ -32,4 +32,9 @@ function validacaoEmail() {
 
 function validacao(email){
     return /\S+@\S+\.\S+/.test(email);
+}
+
+function myFunction(e){
+    const form = document.querySelector('.form')
+    alert("Conta criada com sucesso!")
 }

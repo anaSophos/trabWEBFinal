@@ -29,3 +29,8 @@ function validacaoEmail() {
 function validacao(email){
     return /\S+@\S+\.\S+/.test(email);
 }
+
+function myFunction(e){
+    const form = document.querySelector('.form')
+    alert("Login efetuado com sucesso!")
+}
