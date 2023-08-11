@@ -4,6 +4,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="../CSS/criar.css">
     <link rel="stylesheet" href="../CSS/geral.css">
     <title>Tela Cadastro</title>
@@ -26,7 +27,7 @@
         </nav>
     </header>
 
-    <h1>Criar Conta</h1>
+    <h1>Informações para Agendamento</h1>
     <main>
 
             <div class="form">
@@ -37,7 +38,7 @@
     
                 <div class="one-col">
                     <label for="telefone">Telefone: </label>
-                    <input type="text" name="telefone"  id="telefone" placeholder=" ex: (99) 9 999999-99">
+                    <input type="text" name="telefone"  id="telefone" placeholder=" ex: (99) 9 99999999">
                 </div>
     
                 <div class="two-col">
@@ -62,11 +63,12 @@
 
         <div class="options">
             <a class="cancelar_cadastro" href="../HTML/index.html"><span>CANCELAR</span></a>
-            <a class="agendar_vacina" href="../HTML/confirmacao_agendamento.html"><span>AGENDAR VACINA</span></a>
+            <a class="agendar_vacina" onclick="confirmarAgendamento(event)" href="#"><span>AGENDAR VACINA</span></a>
         </div>
     </main>
     <footer>
         <p class="rodape">Fique tranquilo, seus dados estão protegidos de acordo com nossa Política de Privacidade</p>
     </footer>
 </body>
+<script src="../JS/script.js"></script>
 </html>

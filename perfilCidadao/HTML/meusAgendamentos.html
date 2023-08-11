@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="../CSS/meusAgendamentos.css">
     <link rel="stylesheet" href="../CSS/geral.css">
     <title>Meus agendamentos</title>
@@ -26,94 +27,10 @@
     </header>
 
     <h1>Meus agendamentos</h1>
-    <main>
-        <div class="cards-container">
-            <figure class="people-row">
-                <img src="../assets/pessoas_em_fila.jpg" alt="">
-            </figure>
-            <h2>02º</h2>
-            <h3>Pessoa na fila</h3>
-            <div class="descricoes">
-                <div class="description">
-                    <figure>
-                        <img src="../assets/syringe.png">
-                    </figure>
-                    <p>Vacina: Covid 19</p>
-                </div>
-                <div class="description">
-                    <figure>
-                        <img src="../assets/icone_map.jpg">
-                    </figure>
-                    <p>Posto de saúde: Senhora de Fátima</p>
-                </div>
-                <div class="description">
-                    <figure>
-                        <img src="../assets/clock.jpg">
-                    </figure>
-                    <p>Horário estimado: 11:00 horas (BR)</p>
-                </div>
-                <a href="../HTML/cancelamento.html"><span>CANCELAR AGENDAMENTO</span></a>
-            </div>
-        </div>
-
-        <div class="cards-container">
-            <figure class="people-row">
-                <img src="../assets/pessoas_em_fila.jpg" alt="">
-            </figure>
-            <h2>01º</h2>
-            <h3>Pessoa na fila</h3>
-            <div class="descricoes">
-                <div class="description">
-                    <figure>
-                        <img src="../assets/syringe.png">
-                    </figure>
-                    <p>Vacina: Covid 19</p>
-                </div>
-                <div class="description">
-                    <figure>
-                        <img src="../assets/icone_map.jpg">
-                    </figure>
-                    <p>Posto de saúde: Senhora de Fátima</p>
-                </div>
-                <div class="description">
-                    <figure>
-                        <img src="../assets/clock.jpg">
-                    </figure>
-                    <p>Horário estimado: 11:00 horas (BR)</p>
-                </div>
-                <a href="../HTML/cancelamento.html"><span>CANCELAR AGENDAMENTO</span></a>
-            </div>
-        </div>
-
-        <div class="cards-container">
-            <figure class="people-row">
-                <img src="../assets/pessoas_em_fila.jpg" alt="">
-            </figure>
-            <h2>02º</h2>
-            <h3>Pessoa na fila</h3>
-            <div class="descricoes">
-                <div class="description">
-                    <figure>
-                        <img src="../assets/syringe.png">
-                    </figure>
-                    <p>Vacina: Covid 19</p>
-                </div>
-                <div class="description">
-                    <figure>
-                        <img src="../assets/icone_map.jpg">
-                    </figure>
-                    <p>Posto de saúde: Senhora de Fátima</p>
-                </div>
-                <div class="description">
-                    <figure>
-                        <img src="../assets/clock.jpg">
-                    </figure>
-                    <p>Horário estimado: 11:00 horas (BR)</p>
-                </div>
-                <a href="../HTML/cancelamento.html"><span>CANCELAR AGENDAMENTO</span></a>
-            </div>
-        </div>
-        
+    <div class="agendamentos-notFound" style="text-align: center; height: 11vw;">
+        <h3>Você não possui agendamentos ainda.</h3>
+    </div>
+    <main>        
     </main>
 
     <footer>
@@ -121,4 +38,10 @@
     </footer>
     
 </body>
+<script src="../JS/script.js"></script>
+<script>
+    window.onload = function() {
+        carregaAgendamentos(); // Call the buscaVacinas function from script.js, line 193
+    };
+</script>
 </html>
