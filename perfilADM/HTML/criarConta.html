@@ -55,5 +55,25 @@
     </footer>
 
     <script src="../JS/validacaoCriarConta.js"></script>
+    <script>
+        function mascaraSenha(inputSenha) {
+            const senhaMascarada = '*'.repeat(inputSenha.value.length); 
+            inputSenha.value = senhaMascarada;
+        }
+
+        // Quando o documento estiver carregado, adicionar o evento de entrada para o campo de senha
+        document.addEventListener('DOMContentLoaded', function() {
+            const campoSenha = document.querySelector('input[name="senha"]');
+            const campoConfirmarSenha = document.querySelector('input[name="confirmacaoSenha"]');
+
+            campoSenha.addEventListener('input', function() {
+                mascaraSenha(campoSenha);
+            });
+
+            campoConfirmarSenha.addEventListener('input', function() {
+                mascaraSenha(campoConfirmarSenha);
+            });
+        });
+    </script>
 </body>
 </html>

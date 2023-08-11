@@ -83,7 +83,7 @@
     /*rodapé*/
     footer {
         bottom: 0;
-        position: absolute;
+        position: relative;
         width: 100%;
         height: 60px;
         background: #016494;
@@ -181,7 +181,7 @@
 
     footer {
         bottom: 0;
-        position: absolute;
+        position: relative;
         width: 100%;
         height: 60px;
         background: #016494;
