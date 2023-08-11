@@ -76,6 +76,9 @@
     button{
         cursor: pointer;
     }
+    select .user-icon{
+        background-color: transparent;
+    }
 }
 @media (max-width:799px){
     /*conteúdo*/
