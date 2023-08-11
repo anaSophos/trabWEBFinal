@@ -44,7 +44,7 @@
                     <td class="vacinaAgendar">Vacinas para agendamento
                         <div class="number-box">
                             <button class="decrease-btn">-</button>
-                            <span class="number" id="1"></span>
+                            <span class="number" id="1">0</span>
                             <button class="increase-btn">+</button>
                         </div>
                     </td>
@@ -83,7 +83,7 @@
                     <td class="vacinaName">Covid 19</td>
                     <td class="vacinaAgendar">Vacinas para agendamento
                         <div class="number-box">
-                            <button class="decrease-btn" onclick=diminuirQtdVacina()>-</button>
+                            <button class="decrease-btn">-</button>
                             <span class="number">0</span>
                             <button class="increase-btn">+</button>
                         </div>
@@ -109,9 +109,26 @@
         </div>
     </footer>
 
-    <script src="../JS/estoque_Qtd.js"></script>
     <script>
-        
+        const decreaseBtn = document.querySelector('.decrease-btn');
+        const increaseBtn = document.querySelector('.increase-btn');
+        const numberSpan = document.querySelector('.number');
+
+        let currentNumber = 16; // Initial value
+
+        decreaseBtn.addEventListener('click', () => {
+        currentNumber--;
+        updateNumber();
+        });
+
+        increaseBtn.addEventListener('click', () => {
+        currentNumber++;
+        updateNumber();
+        });
+
+        function updateNumber() {
+        numberSpan.textContent = currentNumber;
+        }
     </script>
 </body>
 </html>

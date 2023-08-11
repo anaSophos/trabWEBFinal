@@ -129,14 +129,14 @@ function confirmarAgendamento(e){
                     showConfirmButton:true,
                     showDenyButton:true,
                     confirmButtonText:"Voltar ao menu",
-                    denyButtonText: "Ver meus agendamentos",
+                    denyButtonText: "Ver agendamentos",
                     denyButtonColor: "#3085d6",
                     allowOutsideClick:false
                 }).then((result)=>{
                     if(result.isConfirmed){
                         window.location.href = "../HTML/index.html" //redirect voltar menu
                     }else if(result.isDenied){
-                        window.location.href = "../HTML/meusAgendamentos.html" //redirect meus agendamentos
+                        window.location.href = "../HTML/gráfico.html" //redirect meus agendamentos
                     }
                 })
             }
