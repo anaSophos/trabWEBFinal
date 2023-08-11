@@ -9,7 +9,7 @@
         font-weight: bolder;
     }
 
-    main{
+    form{
         background-color: #E8F1F3;
         border: 1px solid #9D9CE4;
         border-radius: 12px;
@@ -32,31 +32,40 @@
     }
 
     .agendar_vacina{
+        margin-left: 10px;
         text-decoration: none;
         text-align: center;
         font-size: .9em;
         width: 100%;
-        height: 100%;
+        height: 30px;
         display: flex;
         align-items: center;
         justify-content:center;
         color: white;
         font-weight: bolder;
-        background-color: #1C99E0;  
+        background-color: #1C99E0;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 20px;    
     }
 
     .cancelar_cadastro{
         text-decoration: none;
         text-align: center;
         font-size: .9em;
-        width: 100%;
-        height: 100%;
+        width: 60%;
+        height: 30px;
         display: flex;
         align-items: center;
         justify-content:center;
         color: #1C99E0;
+        border: 2px solid #1C99E0;
         font-weight: bolder;
+        background-color: white;
+        padding: 10px 20px;
         border-radius: 10px;
+        margin-top: 20px;   
+        margin-left: 10px;
     }
 
     label{
@@ -89,52 +98,13 @@
         box-sizing: border-box;
     }
 
+
     .one-col{
         width: 37%;
         margin-right: 4%;
         display:flex;
         flex-direction: column;
         font-size: 1.2em;
-    }
-
-    .buttonCancelar{
-        text-decoration: none;
-        text-align: center;
-        font-size: .9em;
-        width: 30%;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        color: white;
-        font-weight: bolder;
-        background-color: white;
-        padding: 10px 20px;
-        border-radius: 10px;
-        margin-top: 20px;
-        margin-right: 10px;
-        border: 1px solid #1C99E0;  
-    }
-
-    .buttonAgendar{
-        text-decoration: none;
-        text-align: center;
-        font-size: .9em;
-        width: 100%;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        color: white;
-        font-weight: bolder;
-        background-color: #1C99E0;
-        padding: 10px 20px;
-        border-radius: 10px;
-        margin-top: 20px;
-    }
-
-    button{
-        cursor: pointer;
     }
 }
 @media (max-width:799px){
@@ -148,7 +118,7 @@
         font-weight: bolder;
     }
 
-    main{
+    form{
         background-color: #E8F1F3;
         border: 1px solid #9D9CE4;
         border-radius: 12px;
@@ -191,6 +161,7 @@
         border-radius: 10px;
         margin-top: 20px;    
     }
+
 
     .cancelar_cadastro{
         text-decoration: none;

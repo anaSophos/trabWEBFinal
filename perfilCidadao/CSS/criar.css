@@ -9,7 +9,7 @@
         font-weight: bolder;
     }
 
-    main{
+    form{
         background-color: #E8F1F3;
         border: 1px solid #9D9CE4;
         border-radius: 12px;
@@ -118,7 +118,7 @@
         font-weight: bolder;
     }
 
-    main{
+    form{
         background-color: #E8F1F3;
         border: 1px solid #9D9CE4;
         border-radius: 12px;
@@ -161,7 +161,7 @@
         border-radius: 10px;
         margin-top: 20px;    
     }
-    
+
 
     .cancelar_cadastro{
         text-decoration: none;
